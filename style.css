@@ -1,0 +1,51 @@
+
+
+
+#city-input, #weather-output {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.banner {
+    font-family: cursive;
+    color: #31b1f6;
+    font-size: 8rem;
+    text-shadow: 2px 2px 15px red;
+}
+span {
+  color: red;
+  text-shadow: 2px 2px 15px blue;
+}
+
+@media (max-width: 1000px) {
+  .banner {
+    font-family: cursive;
+    color: #31b1f6;
+    margin-top: 5rem;
+    margin-bottom: 10rem;
+    font-size: 6rem;
+    text-shadow: 2px 2px 15px red;
+  }
+  #city-input {
+    padding: 0;
+    font-size: 5rem;
+    background-color: black;
+    border-radius: 10px;
+  }
+  ::placeholder {
+    font-size: 4rem;
+    padding-left: 35px;
+  }
+  .btn {
+    font-size: 3rem;
+    border-radius: 20px;
+    margin-top: 1rem;
+  }
+  #weather-output {
+    font-size: 3rem;
+  }
+  span {
+    color: red;
+    text-shadow: 2px 2px 15px blue;
+  }
+}
